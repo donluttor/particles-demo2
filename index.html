@@ -34,3 +34,9 @@ addEventListener('resize',()=>{canvas.width=innerWidth;canvas.height=innerHeight
 </script>
 </body>
 </html>
+window.addEventListener('keydown',e=>{
+  if(e.key.toLowerCase()==='k'){
+    idx=0;                       // Lorenz
+    ctx.fillStyle="#ffd700";     // Fuerza color dorado
+  }
+});
